@@ -12,8 +12,11 @@ animal_sounds(animal, sound)
 \item{sound}{A character string containing the sound the animal makes}
 }
 \value{
-A sentence matching animals with their sounds
+A sentences matching animals with their sounds
 }
 \description{
 Animal sounds sentences
+}
+\examples{
+sound <- animal_sounds("lion","roar")
 }
